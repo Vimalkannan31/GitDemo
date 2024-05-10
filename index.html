@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Tourism website">
+        <meta name="keywords" content="HTML,CSS,JavaScript,Bootstrap">
+        <meta name="author" content="Vimal">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous"
+        /><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <link rel="stylesheet" href="style.css" />
+        <title>Routez</title>
+      </head>
+<body>
+   <header class="header">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="navbar">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#"><h3 class="ms-3">Routez.com</h3></a>
+        <button class="navbar-toggler shadow-none border-3 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <h3 class="fw-bold"><i class="bi bi-list"></i></h3>
+        </button>
+        <!-- sidebar -->
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <!-- sidebar header -->
+          <div class="offcanvas-header text-white border-bottom ">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Routez.com</h5>
+            <button type="button" class="btn-close btn-close-white shadow-none text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <!-- sidebar body -->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link fw-bold fs-5" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold fs-5" href="#Adventures">Adventures</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold fs-5" aria-current="page" href="#Packages">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold fs-5" href="#Contact">Contact</a>
+              </li>             
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+   </header>
+   <section id="home">
+    <div class = "image_div container-fluid podition-relative">
+      <div class = "content_div position-absolute">
+        <h1 class="display-4 fw-bold">Explore</h1>
+        <h1 class="display-3 fw-bold text-success ">EVERYTHING</h1>
+        <p class="fw-bold">Routez.Com offers Best Offers on World Tour Packages</p>
+        <button type="button" class="btn btn-outline-success text-light"><a href="#Adventures" class="text-decoration-none text-white ">Get Started</a></button>       
+      </div>
+    </div>
+  </div>
+    </section>
+    <!-- Adventure section -->
+    <section class="Adventure mt-5" id="Adventures">
+      <h1 class="fs-1 fw-bolder text-center  mb-5">Adventure Idea!</h1>
+      <div class="card-group">
+        <div class="card text-center ms-4">
+          <img src="images/img.jpg" class="card-img-top rounded mx-auto d-block mt-3" alt="Bungee Jump">
+          <div class="card-body">
+            <h5 class="card-title">Bungee Jump</h5>
+            <p class="card-text">Bungee Jumping Is An Activity That Involves A Person Jumping From A Great Height While Connected To A Large Elastic Cord.</p>
+            <button type="button" class="btn btn-success "><a href="https://en.wikipedia.org/wiki/Bungee_jumping">Read more</a></button>
+          </div>
+        </div>
+        <div class="card text-center">
+          <img src="images/img2.jpg" class="card-img-top rounded mx-auto d-block mt-3" alt="Zip Lines">
+          <div class="card-body">
+            <h5 class="card-title">Zip Lines</h5>
+            <p class="card-text">A Zip-Line, Zip Line, Zip-Wire, Or Flying Fox Is A Pulley Suspended On A Cable, Usually Made Of Stainless Steel, Mounted On A Slope.</p>
+            <button type="button" class="btn btn-success"><a href="https://en.wikipedia.org/wiki/Zip_line">Read more</a></button>
+          </div>
+        </div>
+        <div class="card text-center me-4 ">
+          <img src="images/img3.jpg" class="card-img-top rounded mx-auto d-block mt-3" alt="Canoeing">
+          <div class="card-body">
+            <h5 class="card-title">Canoeing</h5>
+            <p class="card-text">
+              Canoeing is an outdoor activity that involves paddling a canoe, a narrow boat with pointed ends, using a single-bladed paddle</p>
+            <button type="button"class="btn btn-success"><a href="https://en.wikipedia.org/wiki/Canoeing">Read more</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- packages section -->
+    <section class="packages" id="Packages">  
+      <h1 class="fs-1 fw-bolder text-center  mb-5 mt-5 pt-3 ">Packages</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-3 ms-5">
+        <div class="col">
+          <div class="card w-75">
+            <img src="images/himalaya.jpg" class="card-img-top" alt="himalaya">
+            <div class="card-body">
+              <h5 class="card-title">Himachal Packages</h5>
+              <p class="card-text">The Himalayas offer breathtaking beauty and diverse experiences. From the serene lakes of Sikkim to the adventurous treks in Himachal, these majestic mountains captivate all who visit. Explore, discover, and be amazed.</p>
+              <p class="fs-3">RS.6,999-RS.8,999</p>
+              <button type="button" class="btn btn-success "><i class="bi bi-cart4"></i> Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-75 ">
+            <img src="images/darjeeling.jpg" class="card-img-top" alt="dargeeling" >
+            <div class="card-body">
+              <h5 class="card-title">Darjeeling Packages</h5>
+              <p class="card-text">Darjeeling, known for its scenic beauty and tea gardens, offers a range of attractions. Visit the Tiger Hill at sunrise, the Batasia Loop, Himalayan Mountaineering Institute, Peace Pagoda, and enjoy the famous Darjeeling tea.</p>
+              <p class="fs-3">RS.19,999-RS.25,999</p>
+              <button type="button" class="btn btn-success "><i class="bi bi-cart4"></i> Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-75 ">
+            <img src="images/jaipurimg.jpg" class="card-img-top" alt="jaipur" >
+            <div class="card-body">
+              <h5 class="card-title">Jaipur Packages</h5>
+              <p class="card-text">Jaipur, the Pink City of India, is renowned for its majestic forts, palaces, and vibrant culture. Visit the iconic Amber Fort, City Palace, and Hawa Mahal for a glimpse of Rajasthan's rich heritage. Explore the bustling bazaars for traditional handicrafts and indulge in the delicious Rajasthani cuisine.</p>
+              <p class="fs-3">RS.11,000-RS.15,000</p>
+              <button type="button" class="btn btn-success "><i class="bi bi-cart4"></i> Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-75">
+            <img src="images/goa.jpg" class="card-img-top" alt="goa">
+            <div class="card-body">
+              <h5 class="card-title">Goa Package</h5>
+              <p class="card-text">Goa, a coastal paradise in India, is known for its stunning beaches like Baga and Calangute. Visit the historic Fort Aguada, explore the vibrant markets, and savor the delicious seafood.</p>
+              <p class="fs-3">RS.8,999-RS.14,999</p>
+              <button type="button" class="btn btn-success "><i class="bi bi-cart4"></i> Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-75">
+            <img src="images/kerala.jpg" class="card-img-top" alt="kerala" >
+            <div class="card-body">
+              <h5 class="card-title">Kerala Package</h5>
+              <p class="card-text">The Himalayas offer breathtaking beauty and diverse experiences. From the serene lakes of Sikkim to the adventurous treks in Himachal, these majestic mountains captivate all who visit. Explore, discover, and be amazed.</p>
+              <p class="fs-3">RS.4,999-RS.10,999</p>
+              <button type="button" class="btn btn-success "><i class="bi bi-cart4"></i> Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-75 mb-5">
+            <img src="images/delhi.jpg" class="card-img-top" alt="delhi">
+            <div class="card-body">
+              <h5 class="card-title">Delhi Packages</h5>
+              <p class="card-text">The Himalayas offer breathtaking beauty and diverse experiences. From the serene lakes of Sikkim to the adventurous treks in Himachal, these majestic mountains captivate all who visit. Explore, discover, and be amazed.</p>
+              <p class="fs-3">RS.3,999-RS.8,999</p>
+              <button type="button" class="btn btn-success "><i class="bi bi-cart4"></i> Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+    <section class="Contact mt-5 mb-5" id="Contact">
+      <form action="" class="shadow-lg text-center w-50 mx-auto ">
+      <h2 class=" mb-3">Contact Us</h2>
+      <div class="inputs ps-5">
+        <div class="row">
+          <div class="col-5">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          </div>
+          <div class="col-5">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+          </div>
+        </div>
+        <div class="col-10  mt-3">
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+        <div class=" col-10  mt-3 mb-4 ">
+          <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Message..."></textarea>
+        </div>
+      </div>
+        <button type="button" class="btn btn-outline-success mb-3 "><i class="bi bi-send"></i> Send</button>
+      </form>
+    </section>
+    <!-- footer -->
+    <footer class="bg-dark">
+      <div class="text-center">
+        <h2 class="text-white mt-3 mb-3 ">Routez.com</h2>
+        <ul class="list-inline justify-content-center">
+          <li class="list-inline-item px-2" ><a href="#home" class="text-decoration-none text-white ">HOME</a></li>
+          <li class="list-inline-item px-2" ><a href="#Adventures" class="text-decoration-none text-white ">ADVENTURES</a></li>
+          <li class="list-inline-item px-2" ><a href="#Packages" class="text-decoration-none text-white ">PACKAGES</a></li>
+          <li class="list-inline-item px-2"><a href="#Policy" class="text-decoration-none text-white ">POLICY</a></li>
+          <li class="list-inline-item px-2"><a href="#Contact" class="text-decoration-none text-white ">ABOUT</a></li>
+        </ul>
+        <ul class="list-inline justify-content-center ">
+          <li class="list-inline-item px-2 "><h2 ><i class="bi bi-facebook"></i></h2></li>
+          <li class="list-inline-item px-2 "><h2 ><i class="bi bi-whatsapp"></i></h2></li>
+          <li class="list-inline-item px-2"><h2 ><i class="bi bi-instagram"></i></h2></li>
+          <li class="list-inline-item px-2"><h2><i class="bi bi-twitter"></i></h2></li>
+        </ul>
+        <p class="text-white">Developed By Vimal | All Rights Reserved!</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

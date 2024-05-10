@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-nav .nav-link {
+  padding-left: 10px;
+  margin: 10px;
+  color: white;
+}
+.navbar-nav .nav-link:hover{
+   color: rgb(24, 116, 24);
+}
+.image_div {
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/backgroundimg.jpg");
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+.image_div .content_div {
+  top: 28%;
+  left: 34%;
+}
+
+.image_div button {
+  border: 1.5px solid white;
+}
+.Adventure img {
+  width: 250px;
+  height: 200px;
+}
+
+.Adventure button {
+  border-radius: 100px;
+  width: 200px;
+  height: 40px;
+}
+
+.Adventure button a {
+  text-decoration: none;
+  color: white;
+}
+.packages img {
+  padding: 10px;
+}
+.packages {
+  background-color: rgb(214, 213, 213);
+}
+.packages .card {
+  border: 2px solid black;
+}
+
+.Contact input {
+  border: none;
+  border-bottom: 2px solid green;
+}
+.Contact textarea {
+  border: 2px solid green;
+}
+
+.Contact button {
+  width: 150px;
+  border-radius: 100px;
+}
+
+footer ul li {
+  color: white;
+}
+.bgColor {
+  background-color: black;
+  opacity: 0.6;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    background-color: rgb(151, 151, 151);
+    backdrop-filter: blur(10px);
+  }
+}
